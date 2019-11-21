@@ -6,6 +6,7 @@ server.tcp.serviceName="My Computer/"
 server.vi.callsEnabled=True
 server.vi.propertiesEnabled=True
 WebServer.Enabled=False
+WebServer.TcpAccess="c+*"
+WebServer.ViAccess="+*"
 DebugServerEnabled=False
 DebugServerWaitOnLaunch=False
-

@@ -20,6 +20,9 @@
 			<Item Name="RT System Auth Level.ctl" Type="VI" URL="../../Interlock/SubVI/RT System Auth Level.ctl"/>
 			<Item Name="SCH Data 2 RT.ctl" Type="VI" URL="../SCH Data Controls/SCH Data 2 RT.ctl"/>
 		</Item>
+		<Item Name="Misc Files" Type="Folder">
+			<Item Name="Interlock 32T Network Client.app 2019 Preferences" Type="Document" URL="../SubVIs/Interlock 32T Network Client.app 2019 Preferences"/>
+		</Item>
 		<Item Name="NML Daq Files" Type="Folder">
 			<Item Name="Get Shared Data Dir.vi" Type="VI" URL="../NML DAQ Files/Get Shared Data Dir/Get Shared Data Dir.vi"/>
 			<Item Name="shfolder.dll" Type="Document" URL="shfolder.dll">
@@ -111,6 +114,7 @@
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{5F5A04F5-BCC6-4967-B268-61969FACA7F4}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{4565BDDC-C81B-4B87-86D8-0F6DC84B18A0}</Property>
+				<Property Name="App_INI_itemID" Type="Ref">/My Computer/Misc Files/Interlock 32T Network Client.app 2019 Preferences</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{1F7F541C-ECB8-479A-B23A-067592A729F2}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Interlock 32T Network Client</Property>
@@ -136,7 +140,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Builds/Interlock 32T Network Client.app/Support</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{171E9C9B-3DF4-4925-98D4-1F0F3D0CD661}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4EC3F087-50E8-43E7-805C-BC9F90093D32}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Interlock 32T Network Client.vi</Property>

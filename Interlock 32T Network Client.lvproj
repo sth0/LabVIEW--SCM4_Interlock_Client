@@ -86,6 +86,7 @@
 		<Item Name="Abort Interlock 32T Client.vi" Type="VI" URL="../Abort Interlock 32T Client.vi"/>
 		<Item Name="Create Sync Values.vi" Type="VI" URL="../Create Sync Values.vi"/>
 		<Item Name="Interlock 32T Network Client.vi" Type="VI" URL="../Interlock 32T Network Client.vi"/>
+		<Item Name="Set Control List State.vi" Type="VI" URL="../SubVIs/Set Control List State.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>

@@ -11,3 +11,13 @@ Cache_Path[Path] Line0001 = "/private/var/folders/zt/2pl4k17d1fdg76r97w43358800"
 Cache_Path[Path] Line0002 = "00gq/T/TemporaryItems/AB_Cache_{8B357C8E-7031-4AEA"
 Cache_Path[Path] Line0003 = "-81A8-B941D16B0DFC}.txt"
 
+[AB_Cache_{1ECE4DC9-BFF2-4618-AAF6-00BC5130F015}]
+Cache_Path[Path] Line0001 = "/private/var/folders/zt/2pl4k17d1fdg76r97w43358800"
+Cache_Path[Path] Line0002 = "00gq/T/TemporaryItems/AB_Cache_{1ECE4DC9-BFF2-4618"
+Cache_Path[Path] Line0003 = "-AAF6-00BC5130F015}.txt"
+
+[AB_Cache_{5320BD50-B9E3-4AEC-9B10-68B63E884669}]
+Cache_Path[Path] Line0001 = "/private/var/folders/zt/2pl4k17d1fdg76r97w43358800"
+Cache_Path[Path] Line0002 = "00gq/T/TemporaryItems/AB_Cache_{5320BD50-B9E3-4AEC"
+Cache_Path[Path] Line0003 = "-9B10-68B63E884669}.txt"
+

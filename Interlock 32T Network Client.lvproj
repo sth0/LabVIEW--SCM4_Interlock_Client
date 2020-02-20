@@ -17,6 +17,7 @@
 			<Item Name="FPGA Magnet Config.ctl" Type="VI" URL="../SCH Data Controls/FPGA Magnet Config.ctl"/>
 			<Item Name="Interlock 32T FPGA Configure Parameters.ctl" Type="VI" URL="../../Interlock/SubVI/Interlock 32T FPGA Configure Parameters.ctl"/>
 			<Item Name="Interlock RT FPGA Status Info.ctl" Type="VI" URL="../../Interlock/SubVI/Interlock RT FPGA Status Info.ctl"/>
+			<Item Name="PS Action Control.ctl" Type="VI" URL="../../Interlock/SubVI/PS Action Control.ctl"/>
 			<Item Name="RT System Auth Level.ctl" Type="VI" URL="../../Interlock/SubVI/RT System Auth Level.ctl"/>
 			<Item Name="SCH Data 2 RT.ctl" Type="VI" URL="../SCH Data Controls/SCH Data 2 RT.ctl"/>
 		</Item>
@@ -86,6 +87,7 @@
 		<Item Name="Abort Interlock 32T Client.vi" Type="VI" URL="../Abort Interlock 32T Client.vi"/>
 		<Item Name="Create Sync Values.vi" Type="VI" URL="../Create Sync Values.vi"/>
 		<Item Name="Interlock 32T Network Client.vi" Type="VI" URL="../Interlock 32T Network Client.vi"/>
+		<Item Name="SCM4 User Client.vi" Type="VI" URL="../SCM4 User Client.vi"/>
 		<Item Name="Set Control List State.vi" Type="VI" URL="../SubVIs/Set Control List State.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -109,7 +111,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="PS Action Control.ctl" Type="VI" URL="../../Interlock/SubVI/PS Action Control.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Interlock 32T Network Client" Type="EXE">
@@ -118,6 +119,7 @@
 				<Property Name="App_INI_GUID" Type="Str">{4565BDDC-C81B-4B87-86D8-0F6DC84B18A0}</Property>
 				<Property Name="App_INI_itemID" Type="Ref">/My Computer/Misc Files/Interlock 32T Network Client.app 2019 Preferences</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{1F7F541C-ECB8-479A-B23A-067592A729F2}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Interlock 32T Network Client</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
@@ -129,9 +131,9 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{8B357C8E-7031-4AEA-81A8-B941D16B0DFC}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCH Network Client_SCHMPS Network Client_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">25</Property>
+				<Property Name="Bld_version.build" Type="Int">36</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.patch" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">Interlock 32T Network Client.app</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/NI_AB_PROJECTNAME.app</Property>
@@ -142,7 +144,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Builds/Interlock 32T Network Client.app/Support</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4EC3F087-50E8-43E7-805C-BC9F90093D32}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C241F9A4-0C68-40FF-AD82-9C0A7378BE79}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Interlock 32T Network Client.vi</Property>

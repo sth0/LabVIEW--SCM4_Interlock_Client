@@ -45,6 +45,7 @@
 			<Item Name="Read for Get Command.vi" Type="VI" URL="../SubVIs/Read for Get Command.vi"/>
 			<Item Name="Search Data Folder.vi" Type="VI" URL="../SubVIs/Search Data Folder.vi"/>
 			<Item Name="Send SET Command.vi" Type="VI" URL="../SubVIs/Send SET Command.vi"/>
+			<Item Name="Set Control List State.vi" Type="VI" URL="../SubVIs/Set Control List State.vi"/>
 			<Item Name="Test Password.vi" Type="VI" URL="../SubVIs/Test Password.vi"/>
 			<Item Name="Update Client Control List.vi" Type="VI" URL="../SubVIs/Update Client Control List.vi"/>
 			<Item Name="Version String.vi" Type="VI" URL="../SubVIs/Version String.vi"/>
@@ -88,7 +89,6 @@
 		<Item Name="Create Sync Values.vi" Type="VI" URL="../Create Sync Values.vi"/>
 		<Item Name="Interlock 32T Network Client.vi" Type="VI" URL="../Interlock 32T Network Client.vi"/>
 		<Item Name="SCM4 User Client.vi" Type="VI" URL="../SCM4 User Client.vi"/>
-		<Item Name="Set Control List State.vi" Type="VI" URL="../SubVIs/Set Control List State.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
@@ -111,6 +111,7 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="FPGA Crowbar State.ctl" Type="VI" URL="../../Interlock/SubVI/FPGA Crowbar State.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Interlock 32T Network Client" Type="EXE">
@@ -131,7 +132,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{8B357C8E-7031-4AEA-81A8-B941D16B0DFC}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCH Network Client_SCHMPS Network Client_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">37</Property>
+				<Property Name="Bld_version.build" Type="Int">39</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
@@ -183,7 +184,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{5320BD50-B9E3-4AEC-9B10-68B63E884669}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCH Network Client_SCHMPS Network Client_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">SCM4 User Client.app</Property>

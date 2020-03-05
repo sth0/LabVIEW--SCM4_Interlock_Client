@@ -87,6 +87,7 @@
 		</Item>
 		<Item Name="Abort Interlock 32T Client.vi" Type="VI" URL="../Abort Interlock 32T Client.vi"/>
 		<Item Name="Create Sync Values.vi" Type="VI" URL="../Create Sync Values.vi"/>
+		<Item Name="Find Window Bounds.vi" Type="VI" URL="../SubVIs/Find Window Bounds.vi"/>
 		<Item Name="Interlock 32T Network Client.vi" Type="VI" URL="../Interlock 32T Network Client.vi"/>
 		<Item Name="SCM4 User Client.vi" Type="VI" URL="../SCM4 User Client.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -184,7 +185,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{5320BD50-B9E3-4AEC-9B10-68B63E884669}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCH Network Client_SCHMPS Network Client_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">SCM4 User Client.app</Property>

@@ -87,7 +87,7 @@
 		</Item>
 		<Item Name="Abort Interlock 32T Client.vi" Type="VI" URL="../Abort Interlock 32T Client.vi"/>
 		<Item Name="Create Sync Values.vi" Type="VI" URL="../Create Sync Values.vi"/>
-		<Item Name="Find Window Bounds.vi" Type="VI" URL="../SubVIs/Find Window Bounds.vi"/>
+		<Item Name="Get Window Bounds.vi" Type="VI" URL="../Get Window Bounds.vi"/>
 		<Item Name="Interlock 32T Network Client.vi" Type="VI" URL="../Interlock 32T Network Client.vi"/>
 		<Item Name="SCM4 User Client.vi" Type="VI" URL="../SCM4 User Client.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">

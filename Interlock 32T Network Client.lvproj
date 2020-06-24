@@ -14,20 +14,18 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">true</Property>
 		<Item Name="Interlock 32T Data Controls" Type="Folder">
-			<Item Name="FPGA Crowbar State.ctl" Type="VI" URL="../../Interlock/SubVI/FPGA Crowbar State.ctl"/>
-			<Item Name="Interlock 32T FPGA Configure Parameters.ctl" Type="VI" URL="../../Interlock/SubVI/Interlock 32T FPGA Configure Parameters.ctl"/>
-			<Item Name="Interlock RT FPGA Status Info.ctl" Type="VI" URL="../../Interlock/SubVI/Interlock RT FPGA Status Info.ctl"/>
-			<Item Name="PS Action Control.ctl" Type="VI" URL="../../Interlock/SubVI/PS Action Control.ctl"/>
-			<Item Name="RT System Auth Level.ctl" Type="VI" URL="../../Interlock/SubVI/RT System Auth Level.ctl"/>
+			<Item Name="Interlock 32T FPGA Configure Parameters.ctl" Type="VI" URL="../../SCM4 32T Interlock/RT SubVIs/Interlock 32T FPGA Configure Parameters.ctl"/>
+			<Item Name="Interlock RT FPGA Status Info.ctl" Type="VI" URL="../../SCM4 32T Interlock/RT SubVIs/Interlock RT FPGA Status Info.ctl"/>
+			<Item Name="PS Action Control.ctl" Type="VI" URL="../../SCM4 32T Interlock/RT SubVIs/PS Action Control.ctl"/>
+			<Item Name="SHGetFolderPath Errors.ctl" Type="VI" URL="../../NML Data Acquisition/Sub VIs/Get Shared Data Dir/SHGetFolderPath Errors.ctl"/>
 		</Item>
 		<Item Name="Misc Files" Type="Folder">
 			<Item Name="Interlock 32T Network Client.app 2019 Preferences" Type="Document" URL="../SubVIs/Interlock 32T Network Client.app 2019 Preferences"/>
 		</Item>
 		<Item Name="NML Daq Files" Type="Folder">
-			<Item Name="Get Shared Data Dir.vi" Type="VI" URL="../../NML_Data_Acquisition/Sub VIs/Get Shared Data Dir/Get Shared Data Dir.vi"/>
-			<Item Name="SHGetFolderPath Errors.ctl" Type="VI" URL="../../NML_Data_Acquisition/Sub VIs/Get Shared Data Dir/SHGetFolderPath Errors.ctl"/>
-			<Item Name="SHGetFolderPath Return Error.vi" Type="VI" URL="../../NML_Data_Acquisition/Sub VIs/Get Shared Data Dir/SHGetFolderPath Return Error.vi"/>
-			<Item Name="SHGetFolderPath.vi" Type="VI" URL="../../NML_Data_Acquisition/Sub VIs/Get Shared Data Dir/SHGetFolderPath.vi"/>
+			<Item Name="Get Shared Data Dir.vi" Type="VI" URL="../../NML Data Acquisition/Sub VIs/Get Shared Data Dir/Get Shared Data Dir.vi"/>
+			<Item Name="SHGetFolderPath Return Error.vi" Type="VI" URL="../../NML Data Acquisition/Sub VIs/Get Shared Data Dir/SHGetFolderPath Return Error.vi"/>
+			<Item Name="SHGetFolderPath.vi" Type="VI" URL="../../NML Data Acquisition/Sub VIs/Get Shared Data Dir/SHGetFolderPath.vi"/>
 		</Item>
 		<Item Name="Sub VIs" Type="Folder">
 			<Item Name="Command with Response Check.vi" Type="VI" URL="../SubVIs/Command with Response Check.vi"/>
@@ -81,6 +79,7 @@
 			<Item Name="TCP Write String+Term.vi" Type="VI" URL="../TCP Functions/TCP Write String+Term.vi"/>
 		</Item>
 		<Item Name="Abort Interlock 32T Client.vi" Type="VI" URL="../Abort Interlock 32T Client.vi"/>
+		<Item Name="Command Timing.vi" Type="VI" URL="../SubVIs/Command Timing.vi"/>
 		<Item Name="Create Sync Values.vi" Type="VI" URL="../Create Sync Values.vi"/>
 		<Item Name="Get Window Bounds.vi" Type="VI" URL="../Get Window Bounds.vi"/>
 		<Item Name="Interlock 32T Network Client.vi" Type="VI" URL="../Interlock 32T Network Client.vi"/>
@@ -91,6 +90,7 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="FileVersionInfo.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInfo.vi"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="LVOffsetAndMultiplierTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVOffsetAndMultiplierTypeDef.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
@@ -108,6 +108,8 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="FPGA Crowbar State.ctl" Type="VI" URL="../../SCM4 32T Interlock/FPGA SubVIs/FPGA Crowbar State.ctl"/>
+			<Item Name="RT System Auth Level.ctl" Type="VI" URL="../../SCM4 32T Interlock/RT SubVIs/RT System Auth Level.ctl"/>
 			<Item Name="shfolder.dll" Type="Document" URL="shfolder.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -131,7 +133,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{8B357C8E-7031-4AEA-81A8-B941D16B0DFC}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCH Network Client_SCHMPS Network Client_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">52</Property>
+				<Property Name="Bld_version.build" Type="Int">55</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
@@ -183,7 +185,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{5320BD50-B9E3-4AEC-9B10-68B63E884669}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCH Network Client_SCHMPS Network Client_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.build" Type="Int">20</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">SCM4 User Client.app</Property>

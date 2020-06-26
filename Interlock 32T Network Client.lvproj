@@ -133,7 +133,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{8B357C8E-7031-4AEA-81A8-B941D16B0DFC}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCH Network Client_SCHMPS Network Client_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">55</Property>
+				<Property Name="Bld_version.build" Type="Int">57</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
@@ -185,7 +185,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{5320BD50-B9E3-4AEC-9B10-68B63E884669}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCH Network Client_SCHMPS Network Client_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">20</Property>
+				<Property Name="Bld_version.build" Type="Int">22</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">SCM4 User Client.app</Property>

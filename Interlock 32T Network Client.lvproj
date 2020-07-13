@@ -82,7 +82,7 @@
 		<Item Name="Command Timing.vi" Type="VI" URL="../SubVIs/Command Timing.vi"/>
 		<Item Name="Create Sync Values.vi" Type="VI" URL="../Create Sync Values.vi"/>
 		<Item Name="Get Window Bounds.vi" Type="VI" URL="../Get Window Bounds.vi"/>
-		<Item Name="Interlock 32T Network Client.vi" Type="VI" URL="../Interlock 32T Network Client.vi"/>
+		<Item Name="SCM4 Interlock Network Client.vi" Type="VI" URL="../SCM4 Interlock Network Client.vi"/>
 		<Item Name="SCM4 User Client.vi" Type="VI" URL="../SCM4 User Client.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -115,7 +115,7 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Interlock 32T Network Client" Type="EXE">
+			<Item Name="SCM4 Interlock Network Client" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{5F5A04F5-BCC6-4967-B268-61969FACA7F4}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{4565BDDC-C81B-4B87-86D8-0F6DC84B18A0}</Property>
@@ -123,7 +123,7 @@
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{1F7F541C-ECB8-479A-B23A-067592A729F2}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Interlock 32T Network Client</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">SCM4 Interlock Network Client</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -131,25 +131,25 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8B357C8E-7031-4AEA-81A8-B941D16B0DFC}</Property>
-				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCH Network Client_SCHMPS Network Client_log.txt</Property>
+				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCM4 Interlock Network Client log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">57</Property>
+				<Property Name="Bld_version.build" Type="Int">61</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Destination[0].destName" Type="Str">Interlock 32T Network Client.app</Property>
-				<Property Name="Destination[0].path" Type="Path">../Builds/Interlock 32T Network Client.app</Property>
+				<Property Name="Destination[0].destName" Type="Str">SCM4 Interlock Network Client.app</Property>
+				<Property Name="Destination[0].path" Type="Path">../Builds/SCM4 Interlock Network Client.app</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Builds/Interlock 32T Network Client.app/Support</Property>
+				<Property Name="Destination[1].path" Type="Path">../Builds/SCM4 Interlock Network Client.app/Support</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C241F9A4-0C68-40FF-AD82-9C0A7378BE79}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7162BDE5-271F-4AC4-969C-E03EC5D73A78}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Interlock 32T Network Client.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SCM4 Interlock Network Client.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
@@ -159,12 +159,12 @@
 				<Property Name="Source[2].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Interlock 32T Network Client</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">SCM4 Interlock Network Client</Property>
 				<Property Name="TgtF_internalName" Type="Str">edu.fsu.magnet.sth.32T</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright 2016 </Property>
-				<Property Name="TgtF_productName" Type="Str">Interlock 32T Network Client</Property>
+				<Property Name="TgtF_productName" Type="Str">SCM4 Interlock Network Client</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{85996262-21F6-440D-9A6D-4592E420F3F8}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Interlock 32T Network Client.app</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">SCM4 Interlock Network Client.app</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="SCM4 User Client" Type="EXE">
@@ -183,9 +183,9 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5320BD50-B9E3-4AEC-9B10-68B63E884669}</Property>
-				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCH Network Client_SCHMPS Network Client_log.txt</Property>
+				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCM4 Interlock User Client log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">22</Property>
+				<Property Name="Bld_version.build" Type="Int">24</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">SCM4 User Client.app</Property>
@@ -197,10 +197,10 @@
 				<Property Name="Destination[1].path" Type="Path">../Builds/SCM4 User Client.app/Support</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B6090C30-F9BF-4C12-8FA5-4837A7F57304}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7162BDE5-271F-4AC4-969C-E03EC5D73A78}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Interlock 32T Network Client.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SCM4 Interlock Network Client.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>

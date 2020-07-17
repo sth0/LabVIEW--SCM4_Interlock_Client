@@ -28,6 +28,7 @@
 			<Item Name="SHGetFolderPath.vi" Type="VI" URL="../../NML Data Acquisition/Sub VIs/Get Shared Data Dir/SHGetFolderPath.vi"/>
 		</Item>
 		<Item Name="Sub VIs" Type="Folder">
+			<Item Name="Command Timing.vi" Type="VI" URL="../SubVIs/Command Timing.vi"/>
 			<Item Name="Command with Response Check.vi" Type="VI" URL="../SubVIs/Command with Response Check.vi"/>
 			<Item Name="Download Trip File.vi" Type="VI" URL="../SubVIs/Download Trip File.vi"/>
 			<Item Name="Enable Authorized Controls.vi" Type="VI" URL="../SubVIs/Enable Authorized Controls.vi"/>
@@ -35,6 +36,7 @@
 			<Item Name="Find Top Level Reference.vi" Type="VI" URL="../SubVIs/Find Top Level Reference.vi"/>
 			<Item Name="Get All Local Control Refs.vi" Type="VI" URL="../SubVIs/Get All Local Control Refs.vi"/>
 			<Item Name="Interlock 32T Net Client Globals.vi" Type="VI" URL="../SubVIs/Interlock 32T Net Client Globals.vi"/>
+			<Item Name="Parse Ramp To Zero Fault.vi" Type="VI" URL="../SubVIs/Parse Ramp To Zero Fault.vi"/>
 			<Item Name="Read for Get Command.vi" Type="VI" URL="../SubVIs/Read for Get Command.vi"/>
 			<Item Name="Search Data Folder.vi" Type="VI" URL="../SubVIs/Search Data Folder.vi"/>
 			<Item Name="Send SET Command.vi" Type="VI" URL="../SubVIs/Send SET Command.vi"/>
@@ -79,7 +81,6 @@
 			<Item Name="TCP Write String+Term.vi" Type="VI" URL="../TCP Functions/TCP Write String+Term.vi"/>
 		</Item>
 		<Item Name="Abort Interlock 32T Client.vi" Type="VI" URL="../Abort Interlock 32T Client.vi"/>
-		<Item Name="Command Timing.vi" Type="VI" URL="../SubVIs/Command Timing.vi"/>
 		<Item Name="Create Sync Values.vi" Type="VI" URL="../Create Sync Values.vi"/>
 		<Item Name="Get Window Bounds.vi" Type="VI" URL="../Get Window Bounds.vi"/>
 		<Item Name="SCM4 Interlock Network Client.vi" Type="VI" URL="../SCM4 Interlock Network Client.vi"/>
@@ -133,7 +134,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{8B357C8E-7031-4AEA-81A8-B941D16B0DFC}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCM4 Interlock Network Client log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">61</Property>
+				<Property Name="Bld_version.build" Type="Int">65</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
@@ -185,7 +186,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{5320BD50-B9E3-4AEC-9B10-68B63E884669}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCM4 Interlock User Client log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">24</Property>
+				<Property Name="Bld_version.build" Type="Int">26</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">SCM4 User Client.app</Property>

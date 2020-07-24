@@ -13,12 +13,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">true</Property>
-		<Item Name="Interlock 32T Data Controls" Type="Folder">
-			<Item Name="Interlock 32T FPGA Configure Parameters.ctl" Type="VI" URL="../../SCM4 32T Interlock/RT SubVIs/Interlock 32T FPGA Configure Parameters.ctl"/>
-			<Item Name="Interlock RT FPGA Status Info.ctl" Type="VI" URL="../../SCM4 32T Interlock/RT SubVIs/Interlock RT FPGA Status Info.ctl"/>
-			<Item Name="PS Action Control.ctl" Type="VI" URL="../../SCM4 32T Interlock/RT SubVIs/PS Action Control.ctl"/>
-			<Item Name="SHGetFolderPath Errors.ctl" Type="VI" URL="../../NML Data Acquisition/Sub VIs/Get Shared Data Dir/SHGetFolderPath Errors.ctl"/>
-		</Item>
 		<Item Name="Misc Files" Type="Folder">
 			<Item Name="Interlock 32T Network Client.app 2019 Preferences" Type="Document" URL="../SubVIs/Interlock 32T Network Client.app 2019 Preferences"/>
 		</Item>
@@ -26,6 +20,12 @@
 			<Item Name="Get Shared Data Dir.vi" Type="VI" URL="../../NML Data Acquisition/Sub VIs/Get Shared Data Dir/Get Shared Data Dir.vi"/>
 			<Item Name="SHGetFolderPath Return Error.vi" Type="VI" URL="../../NML Data Acquisition/Sub VIs/Get Shared Data Dir/SHGetFolderPath Return Error.vi"/>
 			<Item Name="SHGetFolderPath.vi" Type="VI" URL="../../NML Data Acquisition/Sub VIs/Get Shared Data Dir/SHGetFolderPath.vi"/>
+		</Item>
+		<Item Name="SCM4 Interlock Data Controls" Type="Folder">
+			<Item Name="Interlock 32T FPGA Configure Parameters.ctl" Type="VI" URL="../../SCM4 32T Interlock/RT SubVIs/Interlock 32T FPGA Configure Parameters.ctl"/>
+			<Item Name="Interlock RT FPGA Status Info.ctl" Type="VI" URL="../../SCM4 32T Interlock/RT SubVIs/Interlock RT FPGA Status Info.ctl"/>
+			<Item Name="PS Action Control.ctl" Type="VI" URL="../../SCM4 32T Interlock/RT SubVIs/PS Action Control.ctl"/>
+			<Item Name="SHGetFolderPath Errors.ctl" Type="VI" URL="../../NML Data Acquisition/Sub VIs/Get Shared Data Dir/SHGetFolderPath Errors.ctl"/>
 		</Item>
 		<Item Name="Sub VIs" Type="Folder">
 			<Item Name="Command Timing.vi" Type="VI" URL="../SubVIs/Command Timing.vi"/>

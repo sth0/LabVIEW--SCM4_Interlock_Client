@@ -83,6 +83,7 @@
 		<Item Name="Abort Interlock 32T Client.vi" Type="VI" URL="../Abort Interlock 32T Client.vi"/>
 		<Item Name="Create Sync Values.vi" Type="VI" URL="../Create Sync Values.vi"/>
 		<Item Name="Get Window Bounds.vi" Type="VI" URL="../Get Window Bounds.vi"/>
+		<Item Name="Ramp To Zero Display.ctl" Type="VI" URL="../SubVIs/Ramp To Zero Display.ctl"/>
 		<Item Name="SCM4 Interlock Network Client.vi" Type="VI" URL="../SCM4 Interlock Network Client.vi"/>
 		<Item Name="SCM4 User Client.vi" Type="VI" URL="../SCM4 User Client.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -114,6 +115,7 @@
 			<Item Name="shfolder.dll" Type="Document" URL="shfolder.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Switch Box Status.ctl" Type="VI" URL="../../SCM4 32T Interlock/RT SubVIs/Switch Box Status.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="SCM4 Interlock Network Client" Type="EXE">

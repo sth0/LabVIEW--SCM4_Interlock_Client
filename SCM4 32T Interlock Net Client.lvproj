@@ -138,10 +138,10 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{8B357C8E-7031-4AEA-81A8-B941D16B0DFC}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCM4 Interlock Network Client log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">80</Property>
+				<Property Name="Bld_version.build" Type="Int">81</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">2</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">SCM4 Interlock Network Client.app</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/SCM4 Interlock Network Client.app</Property>
@@ -152,7 +152,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Builds/SCM4 Interlock Network Client.app/Support</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E4FCF5C0-87BC-43EC-8F60-E7CDA3055906}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0F00E339-1E6B-4F9E-BD81-50A5FBAA53C7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SCM4 Interlock Network Client.vi</Property>
@@ -191,9 +191,9 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{5320BD50-B9E3-4AEC-9B10-68B63E884669}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCM4 Interlock User Client log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">36</Property>
+				<Property Name="Bld_version.build" Type="Int">37</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">2</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">SCM4 User Client.app</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/SCM4 User Client.app</Property>
@@ -204,7 +204,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Builds/SCM4 User Client.app/Support</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E4FCF5C0-87BC-43EC-8F60-E7CDA3055906}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0F00E339-1E6B-4F9E-BD81-50A5FBAA53C7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SCM4 Interlock Network Client.vi</Property>

@@ -8,3 +8,6 @@ server.vi.propertiesEnabled=True
 WebServer.Enabled=False
 DebugServerEnabled=False
 DebugServerWaitOnLaunch=False
+server.tcp.enabled=TRUE
+server.tcp.port=3375
+server.tcp.access="+127.0.0.1;+localhost;+*"

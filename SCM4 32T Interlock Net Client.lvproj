@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="alias.value" Type="Str">127.0.0.1</Property>
 		<Property Name="CCSymbols" Type="Str"></Property>
@@ -17,15 +17,21 @@
 			<Item Name="Interlock 32T Network Client.app 2019 Preferences" Type="Document" URL="../SubVIs/Interlock 32T Network Client.app 2019 Preferences"/>
 		</Item>
 		<Item Name="NML Daq Files" Type="Folder">
-			<Item Name="Get Shared Data Dir.vi" Type="VI" URL="../../NML Data Acquisition/Sub VIs/Get Shared Data Dir/Get Shared Data Dir.vi"/>
-			<Item Name="SHGetFolderPath Return Error.vi" Type="VI" URL="../../NML Data Acquisition/Sub VIs/Get Shared Data Dir/SHGetFolderPath Return Error.vi"/>
-			<Item Name="SHGetFolderPath.vi" Type="VI" URL="../../NML Data Acquisition/Sub VIs/Get Shared Data Dir/SHGetFolderPath.vi"/>
+			<Item Name="Get Shared Data Dir.vi" Type="VI" URL="../../NML Data Acquisition LV20/Sub VIs/Get Shared Data Dir/Get Shared Data Dir.vi"/>
 		</Item>
 		<Item Name="SCM4 Interlock Data Controls" Type="Folder">
-			<Item Name="Interlock 32T FPGA Configure Parameters.ctl" Type="VI" URL="../../SCM4 Interlock/RT SubVIs/Interlock 32T FPGA Configure Parameters.ctl"/>
-			<Item Name="Interlock RT FPGA Status Info.ctl" Type="VI" URL="../../SCM4 Interlock/RT SubVIs/Interlock RT FPGA Status Info.ctl"/>
-			<Item Name="PS Action Control.ctl" Type="VI" URL="../../SCM4 Interlock/RT SubVIs/PS Action Control.ctl"/>
-			<Item Name="SHGetFolderPath Errors.ctl" Type="VI" URL="../../NML Data Acquisition/Sub VIs/Get Shared Data Dir/SHGetFolderPath Errors.ctl"/>
+			<Item Name="FPGA Crowbar State.ctl" Type="VI" URL="../../SCM4 Interlock LV20/FPGA SubVIs/FPGA Crowbar State.ctl"/>
+			<Item Name="Interlock 32T FPGA Configure Parameters.ctl" Type="VI" URL="../../SCM4 Interlock LV20/RT SubVIs/Interlock 32T FPGA Configure Parameters.ctl"/>
+			<Item Name="Interlock RT FPGA Status Info.ctl" Type="VI" URL="../../SCM4 Interlock LV20/RT SubVIs/Interlock RT FPGA Status Info.ctl"/>
+			<Item Name="PS Action Control.ctl" Type="VI" URL="../../SCM4 Interlock LV20/RT SubVIs/PS Action Control.ctl"/>
+			<Item Name="RT System Auth Level.ctl" Type="VI" URL="../../SCM4 Interlock LV20/RT SubVIs/RT System Auth Level.ctl"/>
+			<Item Name="shfolder.dll" Type="Document" URL="shfolder.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="SHGetFolderPath Errors.ctl" Type="VI" URL="../../NML Data Acquisition LV20/Sub VIs/Get Shared Data Dir/SHGetFolderPath Errors.ctl"/>
+			<Item Name="SHGetFolderPath Return Error.vi" Type="VI" URL="../../NML Data Acquisition LV20/Sub VIs/Get Shared Data Dir/SHGetFolderPath Return Error.vi"/>
+			<Item Name="SHGetFolderPath.vi" Type="VI" URL="../../NML Data Acquisition LV20/Sub VIs/Get Shared Data Dir/SHGetFolderPath.vi"/>
+			<Item Name="Switch Box Status.ctl" Type="VI" URL="../../SCM4 Interlock LV20/RT SubVIs/Switch Box Status.ctl"/>
 		</Item>
 		<Item Name="Sub VIs" Type="Folder">
 			<Item Name="Command Timing.vi" Type="VI" URL="../SubVIs/Command Timing.vi"/>
@@ -103,21 +109,12 @@
 				<Item Name="MD5Checksum pad.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum pad.vi"/>
 				<Item Name="MD5Checksum string.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum string.vi"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
-				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Normalize End Of Line.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Normalize End Of Line.vi"/>
 				<Item Name="Run AppleScript Code.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/Run AppleScript Code.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="FPGA Crowbar State.ctl" Type="VI" URL="../../SCM4 Interlock/FPGA SubVIs/FPGA Crowbar State.ctl"/>
-			<Item Name="RT System Auth Level.ctl" Type="VI" URL="../../SCM4 Interlock/RT SubVIs/RT System Auth Level.ctl"/>
-			<Item Name="shfolder.dll" Type="Document" URL="shfolder.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="Switch Box Status.ctl" Type="VI" URL="../../SCM4 Interlock/RT SubVIs/Switch Box Status.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="SCM4 Interlock Network Client" Type="EXE">
@@ -126,6 +123,7 @@
 				<Property Name="App_INI_GUID" Type="Str">{4565BDDC-C81B-4B87-86D8-0F6DC84B18A0}</Property>
 				<Property Name="App_INI_itemID" Type="Ref">/My Computer/Misc Files/Interlock 32T Network Client.app 2019 Preferences</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{1F7F541C-ECB8-479A-B23A-067592A729F2}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">SCM4 Interlock Network Client</Property>
@@ -149,7 +147,7 @@
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Builds/SCM4 Interlock Network Client.app/Support</Property>
+				<Property Name="Destination[1].path" Type="Path">../Builds/SCM4 Interlock Network Client.app/Contents/Resources</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="Source[0].itemID" Type="Str">{2A0970FE-3D48-4776-8834-D3F50BADDE83}</Property>
@@ -179,6 +177,7 @@
 				<Property Name="App_INI_GUID" Type="Str">{89189DFA-4C59-4341-BDCD-4F6EE6AA0C3A}</Property>
 				<Property Name="App_INI_itemID" Type="Ref">/My Computer/Misc Files/Interlock 32T Network Client.app 2019 Preferences</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{1ECE4DC9-BFF2-4618-AAF6-00BC5130F015}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">SCM4 User Client</Property>
@@ -201,7 +200,7 @@
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Builds/SCM4 User Client.app/Support</Property>
+				<Property Name="Destination[1].path" Type="Path">../Builds/SCM4 User Client.app/Contents/Resources</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="Source[0].itemID" Type="Str">{2A0970FE-3D48-4776-8834-D3F50BADDE83}</Property>

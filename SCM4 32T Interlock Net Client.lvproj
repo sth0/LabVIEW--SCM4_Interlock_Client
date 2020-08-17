@@ -3,15 +3,20 @@
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="alias.value" Type="Str">127.0.0.1</Property>
 		<Property Name="CCSymbols" Type="Str"></Property>
+		<Property Name="mathScriptPath" Type="Str">/Users/sth/Documents/LabVIEW Data 20.0</Property>
 		<Property Name="NI.SortType" Type="Int">1</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
-		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
-		<Property Name="server.tcp.port" Type="Int">0</Property>
-		<Property Name="server.tcp.serviceName" Type="Str">My Computer/</Property>
+		<Property Name="server.tcp.access" Type="Str">+146.201.*</Property>
+		<Property Name="server.tcp.enabled" Type="Bool">true</Property>
+		<Property Name="server.tcp.port" Type="Int">3363</Property>
+		<Property Name="server.tcp.serviceName" Type="Str">SCM4InterlockClient</Property>
 		<Property Name="server.tcp.serviceName.default" Type="Str">My Computer/</Property>
+		<Property Name="server.vi.access" Type="Str">+SCM4 Interlock Network Client;+SCM4 User Client</Property>
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="server.viscripting.showScriptingOperationsInContextHelp" Type="Bool">false</Property>
+		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">false</Property>
 		<Property Name="specify.custom.address" Type="Bool">true</Property>
 		<Item Name="Misc Files" Type="Folder">
 			<Item Name="Interlock 32T Network Client.app 2019 Preferences" Type="Document" URL="../SubVIs/Interlock 32T Network Client.app 2019 Preferences"/>
@@ -136,7 +141,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{8B357C8E-7031-4AEA-81A8-B941D16B0DFC}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCM4 Interlock Network Client log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">85</Property>
+				<Property Name="Bld_version.build" Type="Int">87</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">3</Property>
@@ -149,8 +154,8 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Builds/SCM4 Interlock Network Client.app/Contents/Resources</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2A0970FE-3D48-4776-8834-D3F50BADDE83}</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A8A51892-D93E-456E-BC0B-05DFAD32A60F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SCM4 Interlock Network Client.vi</Property>
@@ -163,8 +168,12 @@
 				<Property Name="Source[2].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Misc Files</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">SCM4 Interlock Network Client</Property>
-				<Property Name="TgtF_internalName" Type="Str">edu.fsu.magnet.sth.32T</Property>
+				<Property Name="TgtF_internalName" Type="Str">edu.fsu.magnet.sth.SCM4InterlockClient</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright 2016 </Property>
 				<Property Name="TgtF_productName" Type="Str">SCM4 Interlock Network Client</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{85996262-21F6-440D-9A6D-4592E420F3F8}</Property>
@@ -190,7 +199,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{5320BD50-B9E3-4AEC-9B10-68B63E884669}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCM4 Interlock User Client log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">40</Property>
+				<Property Name="Bld_version.build" Type="Int">41</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">3</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>

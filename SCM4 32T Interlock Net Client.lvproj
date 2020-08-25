@@ -31,12 +31,18 @@
 			<Item Name="SHGetFolderPath.vi" Type="VI" URL="../../NML Data Acquisition LV20/Sub VIs/Get Shared Data Dir/SHGetFolderPath.vi"/>
 		</Item>
 		<Item Name="SCM4 Interlock Data Controls" Type="Folder">
-			<Item Name="Crowbar Display.ctl" Type="VI" URL="../SubVIs/Crowbar Display.ctl"/>
+			<Item Name="FPGA Crowbar State.ctl" Type="VI" URL="../../SCM4 Interlock LV20/FPGA SubVIs/FPGA Crowbar State.ctl"/>
+			<Item Name="Interlock 32T FPGA Configure Parameters.ctl" Type="VI" URL="../../SCM4 Interlock LV20/RT SubVIs/Interlock 32T FPGA Configure Parameters.ctl"/>
+			<Item Name="Interlock RT FPGA Status Info.ctl" Type="VI" URL="../../SCM4 Interlock LV20/RT SubVIs/Interlock RT FPGA Status Info.ctl"/>
+			<Item Name="PS Action Control.ctl" Type="VI" URL="../../SCM4 Interlock LV20/RT SubVIs/PS Action Control.ctl"/>
 			<Item Name="Ramp To Zero Display.ctl" Type="VI" URL="../SubVIs/Ramp To Zero Display.ctl"/>
+			<Item Name="RT System Auth Level.ctl" Type="VI" URL="../../SCM4 Interlock LV20/RT SubVIs/RT System Auth Level.ctl"/>
+			<Item Name="Switch Box Status.ctl" Type="VI" URL="../../SCM4 Interlock LV20/RT SubVIs/Switch Box Status.ctl"/>
 		</Item>
 		<Item Name="Sub VIs" Type="Folder">
 			<Item Name="Command Timing.vi" Type="VI" URL="../SubVIs/Command Timing.vi"/>
 			<Item Name="Command with Response Check.vi" Type="VI" URL="../SubVIs/Command with Response Check.vi"/>
+			<Item Name="Crowbar Display.ctl" Type="VI" URL="../SubVIs/Crowbar Display.ctl"/>
 			<Item Name="Download Trip File.vi" Type="VI" URL="../SubVIs/Download Trip File.vi"/>
 			<Item Name="Enable Authorized Controls.vi" Type="VI" URL="../SubVIs/Enable Authorized Controls.vi"/>
 			<Item Name="Enable Controls.vi" Type="VI" URL="../SubVIs/Enable Controls.vi"/>
@@ -115,12 +121,6 @@
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 			</Item>
-			<Item Name="FPGA Crowbar State.ctl" Type="VI" URL="../../SCM4 Interlock LV20/FPGA SubVIs/FPGA Crowbar State.ctl"/>
-			<Item Name="Interlock 32T FPGA Configure Parameters.ctl" Type="VI" URL="../../SCM4 Interlock LV20/RT SubVIs/Interlock 32T FPGA Configure Parameters.ctl"/>
-			<Item Name="Interlock RT FPGA Status Info.ctl" Type="VI" URL="../../SCM4 Interlock LV20/RT SubVIs/Interlock RT FPGA Status Info.ctl"/>
-			<Item Name="PS Action Control.ctl" Type="VI" URL="../../SCM4 Interlock LV20/RT SubVIs/PS Action Control.ctl"/>
-			<Item Name="RT System Auth Level.ctl" Type="VI" URL="../../SCM4 Interlock LV20/RT SubVIs/RT System Auth Level.ctl"/>
-			<Item Name="Switch Box Status.ctl" Type="VI" URL="../../SCM4 Interlock LV20/RT SubVIs/Switch Box Status.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="SCM4 Interlock Network Client" Type="EXE">
@@ -142,7 +142,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{8B357C8E-7031-4AEA-81A8-B941D16B0DFC}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCM4 Interlock Network Client log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">93</Property>
+				<Property Name="Bld_version.build" Type="Int">94</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">3</Property>
@@ -200,7 +200,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{5320BD50-B9E3-4AEC-9B10-68B63E884669}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCM4 Interlock User Client log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">47</Property>
+				<Property Name="Bld_version.build" Type="Int">48</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">3</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>

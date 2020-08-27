@@ -35,9 +35,7 @@
 			<Item Name="Interlock 32T FPGA Configure Parameters.ctl" Type="VI" URL="../../SCM4 Interlock LV20/RT SubVIs/Interlock 32T FPGA Configure Parameters.ctl"/>
 			<Item Name="Interlock RT FPGA Status Info.ctl" Type="VI" URL="../../SCM4 Interlock LV20/RT SubVIs/Interlock RT FPGA Status Info.ctl"/>
 			<Item Name="PS Action Control.ctl" Type="VI" URL="../../SCM4 Interlock LV20/RT SubVIs/PS Action Control.ctl"/>
-			<Item Name="Ramp To Zero Display.ctl" Type="VI" URL="../SubVIs/Ramp To Zero Display.ctl"/>
 			<Item Name="RT System Auth Level.ctl" Type="VI" URL="../../SCM4 Interlock LV20/RT SubVIs/RT System Auth Level.ctl"/>
-			<Item Name="Switch Box Status.ctl" Type="VI" URL="../../SCM4 Interlock LV20/RT SubVIs/Switch Box Status.ctl"/>
 		</Item>
 		<Item Name="Sub VIs" Type="Folder">
 			<Item Name="Command Timing.vi" Type="VI" URL="../SubVIs/Command Timing.vi"/>
@@ -52,10 +50,12 @@
 			<Item Name="Parse Crowbar Fault.vi" Type="VI" URL="../SubVIs/Parse Crowbar Fault.vi"/>
 			<Item Name="Parse Ramp To Zero Fault.vi" Type="VI" URL="../SubVIs/Parse Ramp To Zero Fault.vi"/>
 			<Item Name="Queue Status Conditional.vi" Type="VI" URL="../SubVIs/Queue Status Conditional.vi"/>
+			<Item Name="Ramp To Zero Display.ctl" Type="VI" URL="../SubVIs/Ramp To Zero Display.ctl"/>
 			<Item Name="Read for Get Command.vi" Type="VI" URL="../SubVIs/Read for Get Command.vi"/>
 			<Item Name="Search Data Folder.vi" Type="VI" URL="../SubVIs/Search Data Folder.vi"/>
 			<Item Name="Send SET Command.vi" Type="VI" URL="../SubVIs/Send SET Command.vi"/>
 			<Item Name="Set Control List State.vi" Type="VI" URL="../SubVIs/Set Control List State.vi"/>
+			<Item Name="Switch Box Status.ctl" Type="VI" URL="../../SCM4 Interlock LV20/RT SubVIs/Switch Box Status.ctl"/>
 			<Item Name="Test Password.vi" Type="VI" URL="../SubVIs/Test Password.vi"/>
 			<Item Name="Update Client Control List.vi" Type="VI" URL="../SubVIs/Update Client Control List.vi"/>
 			<Item Name="Version String.vi" Type="VI" URL="../SubVIs/Version String.vi"/>
@@ -142,7 +142,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{8B357C8E-7031-4AEA-81A8-B941D16B0DFC}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCM4 Interlock Network Client log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">95</Property>
+				<Property Name="Bld_version.build" Type="Int">97</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">3</Property>
@@ -200,7 +200,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{5320BD50-B9E3-4AEC-9B10-68B63E884669}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCM4 Interlock User Client log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">49</Property>
+				<Property Name="Bld_version.build" Type="Int">51</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">3</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>

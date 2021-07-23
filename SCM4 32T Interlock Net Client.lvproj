@@ -47,13 +47,13 @@
 			<Item Name="Download Trip File.vi" Type="VI" URL="../SubVIs/Download Trip File.vi"/>
 			<Item Name="Enable Authorized Controls.vi" Type="VI" URL="../SubVIs/Enable Authorized Controls.vi"/>
 			<Item Name="Enable Controls.vi" Type="VI" URL="../SubVIs/Enable Controls.vi"/>
+			<Item Name="External Ramp Down Display.ctl" Type="VI" URL="../SubVIs/External Ramp Down Display.ctl"/>
 			<Item Name="Find Top Level Reference.vi" Type="VI" URL="../SubVIs/Find Top Level Reference.vi"/>
 			<Item Name="Get All Local Control Refs.vi" Type="VI" URL="../SubVIs/Get All Local Control Refs.vi"/>
 			<Item Name="Interlock 32T Net Client Globals.vi" Type="VI" URL="../SubVIs/Interlock 32T Net Client Globals.vi"/>
 			<Item Name="Parse Crowbar Fault.vi" Type="VI" URL="../SubVIs/Parse Crowbar Fault.vi"/>
 			<Item Name="Parse Ramp To Zero Fault.vi" Type="VI" URL="../SubVIs/Parse Ramp To Zero Fault.vi"/>
 			<Item Name="Queue Status Conditional.vi" Type="VI" URL="../SubVIs/Queue Status Conditional.vi"/>
-			<Item Name="Ramp To Zero Display.ctl" Type="VI" URL="../SubVIs/Ramp To Zero Display.ctl"/>
 			<Item Name="Read for Get Command.vi" Type="VI" URL="../SubVIs/Read for Get Command.vi"/>
 			<Item Name="Search Data Folder.vi" Type="VI" URL="../SubVIs/Search Data Folder.vi"/>
 			<Item Name="Send SET Command.vi" Type="VI" URL="../SubVIs/Send SET Command.vi"/>

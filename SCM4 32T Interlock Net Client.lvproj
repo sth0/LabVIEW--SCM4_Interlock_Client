@@ -47,12 +47,14 @@
 			<Item Name="Download Trip File.vi" Type="VI" URL="../SubVIs/Download Trip File.vi"/>
 			<Item Name="Enable Authorized Controls.vi" Type="VI" URL="../SubVIs/Enable Authorized Controls.vi"/>
 			<Item Name="Enable Controls.vi" Type="VI" URL="../SubVIs/Enable Controls.vi"/>
+			<Item Name="Encode Variant 2 String.vi" Type="VI" URL="../SubVIs/Encode Variant 2 String.vi"/>
 			<Item Name="External Ramp Down Display.ctl" Type="VI" URL="../SubVIs/External Ramp Down Display.ctl"/>
 			<Item Name="Find Top Level Reference.vi" Type="VI" URL="../SubVIs/Find Top Level Reference.vi"/>
 			<Item Name="Get All Local Control Refs.vi" Type="VI" URL="../SubVIs/Get All Local Control Refs.vi"/>
 			<Item Name="Interlock 32T Net Client Globals.vi" Type="VI" URL="../SubVIs/Interlock 32T Net Client Globals.vi"/>
 			<Item Name="Parse Crowbar Fault.vi" Type="VI" URL="../SubVIs/Parse Crowbar Fault.vi"/>
 			<Item Name="Parse Ramp To Zero Fault.vi" Type="VI" URL="../SubVIs/Parse Ramp To Zero Fault.vi"/>
+			<Item Name="Parse Str Ctl and Variant.vi" Type="VI" URL="../SubVIs/Parse Str Ctl and Variant.vi"/>
 			<Item Name="Queue Status Conditional.vi" Type="VI" URL="../SubVIs/Queue Status Conditional.vi"/>
 			<Item Name="Read for Get Command.vi" Type="VI" URL="../SubVIs/Read for Get Command.vi"/>
 			<Item Name="Search Data Folder.vi" Type="VI" URL="../SubVIs/Search Data Folder.vi"/>
@@ -60,6 +62,7 @@
 			<Item Name="Set Control List State.vi" Type="VI" URL="../SubVIs/Set Control List State.vi"/>
 			<Item Name="Switch Box Status.ctl" Type="VI" URL="../../SCM4 Interlock LV20/RT SubVIs/Switch Box Status.ctl"/>
 			<Item Name="Test Password.vi" Type="VI" URL="../SubVIs/Test Password.vi"/>
+			<Item Name="Test Variant2Str.vi" Type="VI" URL="../SubVIs/Test Variant2Str.vi"/>
 			<Item Name="Update Client Control List.vi" Type="VI" URL="../SubVIs/Update Client Control List.vi"/>
 			<Item Name="Version String.vi" Type="VI" URL="../SubVIs/Version String.vi"/>
 		</Item>
@@ -179,7 +182,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{8B357C8E-7031-4AEA-81A8-B941D16B0DFC}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCM4 Interlock Network Client log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">441</Property>
+				<Property Name="Bld_version.build" Type="Int">442</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">4</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
@@ -236,7 +239,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{5320BD50-B9E3-4AEC-9B10-68B63E884669}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCM4 Interlock User Client log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">379</Property>
+				<Property Name="Bld_version.build" Type="Int">381</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">3</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>

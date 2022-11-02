@@ -22,7 +22,8 @@
 		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">false</Property>
 		<Property Name="specify.custom.address" Type="Bool">true</Property>
 		<Item Name="Misc Files" Type="Folder">
-			<Item Name="Interlock 32T Network Client.app 2019 Preferences" Type="Document" URL="../SubVIs/Interlock 32T Network Client.app 2019 Preferences"/>
+			<Item Name="PS Control.app 2020 Preferences" Type="Document" URL="../PS Control.app 2020 Preferences"/>
+			<Item Name="SCM4 Interlock Network Client.app 2020 Preferences" Type="Document" URL="../SCM4 Interlock Network Client.app 2020 Preferences"/>
 		</Item>
 		<Item Name="NML Daq Files" Type="Folder">
 			<Item Name="Get Shared Data Dir.vi" Type="VI" URL="../../NML Data Acquisition LV20/Sub VIs/Get Shared Data Dir/Get Shared Data Dir.vi"/>
@@ -167,7 +168,7 @@
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{4A860D27-E897-4390-9C6C-9052E037E165}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{89189DFA-4C59-4341-BDCD-4F6EE6AA0C3A}</Property>
-				<Property Name="App_INI_itemID" Type="Ref">/My Computer/Misc Files/Interlock 32T Network Client.app 2019 Preferences</Property>
+				<Property Name="App_INI_itemID" Type="Ref">/My Computer/Misc Files/PS Control.app 2020 Preferences</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -182,7 +183,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{5320BD50-B9E3-4AEC-9B10-68B63E884669}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCM4 Interlock User Client log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">384</Property>
+				<Property Name="Bld_version.build" Type="Int">386</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">3</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
@@ -195,7 +196,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Builds/PS Control.app/Contents/Resources</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E28DA209-B9A9-4585-915F-BF1AA189585A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{34B6A67E-2BA0-4132-AD9A-75528311E797}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SCM4 Interlock Network Client.vi</Property>
@@ -223,7 +224,7 @@
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{5F5A04F5-BCC6-4967-B268-61969FACA7F4}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{4565BDDC-C81B-4B87-86D8-0F6DC84B18A0}</Property>
-				<Property Name="App_INI_itemID" Type="Ref">/My Computer/Misc Files/Interlock 32T Network Client.app 2019 Preferences</Property>
+				<Property Name="App_INI_itemID" Type="Ref"></Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -238,7 +239,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{8B357C8E-7031-4AEA-81A8-B941D16B0DFC}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCM4 Interlock Network Client log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">444</Property>
+				<Property Name="Bld_version.build" Type="Int">446</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">4</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
@@ -251,7 +252,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Builds/SCM4 Interlock Network Client.app/Contents/Resources</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{66CFE688-E79D-40D2-AB05-527DF9EB6F9A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{34B6A67E-2BA0-4132-AD9A-75528311E797}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SCM4 Interlock Network Client.vi</Property>
@@ -274,7 +275,6 @@
 				<Property Name="TgtF_productName" Type="Str">SCM4 Interlock Network Client</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{85996262-21F6-440D-9A6D-4592E420F3F8}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">SCM4 Interlock Network Client.app</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>

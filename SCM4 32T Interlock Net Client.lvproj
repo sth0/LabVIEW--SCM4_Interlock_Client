@@ -30,7 +30,6 @@
 			<Item Name="shfolder.dll" Type="Document" URL="shfolder.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SHGetFolderPath Errors.ctl" Type="VI" URL="../../NML Data Acquisition/Sub VIs/Get Shared Data Dir/SHGetFolderPath Errors.ctl"/>
 		</Item>
 		<Item Name="SCM4 Interlock Data Controls" Type="Folder">
 			<Item Name="FPGA Crowbar State.ctl" Type="VI" URL="../../SCM4 Interlock/FPGA SubVIs/FPGA Crowbar State.ctl"/>
@@ -151,8 +150,7 @@
 			<Item Name="CoreFoundation.framework" Type="Document" URL="CoreFoundation.framework">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SHGetFolderPath Return Error.vi" Type="VI" URL="../../NML Data Acquisition/Sub VIs/Get Shared Data Dir/SHGetFolderPath Return Error.vi"/>
-			<Item Name="SHGetFolderPath.vi" Type="VI" URL="../../NML Data Acquisition/Sub VIs/Get Shared Data Dir/SHGetFolderPath.vi"/>
+			<Item Name="Get Windows Shared Path.lvlib" Type="Library" URL="../../NML Data Acquisition/Sub VIs/Get Shared Data Dir/Get Windows Shared Path.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="PS Control" Type="EXE">

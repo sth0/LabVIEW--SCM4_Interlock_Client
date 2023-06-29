@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="21008000">
+<Project Type="Project" LVVersion="22308000">
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -144,13 +144,16 @@
 				<Item Name="Run AppleScript Code.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/Run AppleScript Code.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="CoreFoundation.framework" Type="Document" URL="CoreFoundation.framework">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Get Windows Shared Path.lvlib" Type="Library" URL="../../NML Data Acquisition/Sub VIs/Get Shared Data Dir/Get Windows Shared Path.lvlib"/>
+			<Item Name="SHGetFolderPath Errors.ctl" Type="VI" URL="../../NML Data Acquisition/Sub VIs/Get Shared Data Dir/SHGetFolderPath Errors.ctl"/>
+			<Item Name="SHGetFolderPath Return Error.vi" Type="VI" URL="../../NML Data Acquisition/Sub VIs/Get Shared Data Dir/SHGetFolderPath Return Error.vi"/>
+			<Item Name="SHGetFolderPath.vi" Type="VI" URL="../../NML Data Acquisition/Sub VIs/Get Shared Data Dir/SHGetFolderPath.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="PS Control" Type="EXE">
@@ -172,7 +175,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{5320BD50-B9E3-4AEC-9B10-68B63E884669}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCM4 Interlock User Client log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">386</Property>
+				<Property Name="Bld_version.build" Type="Int">387</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">3</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
@@ -228,7 +231,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{8B357C8E-7031-4AEA-81A8-B941D16B0DFC}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCM4 Interlock Network Client log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">446</Property>
+				<Property Name="Bld_version.build" Type="Int">447</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">4</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>

@@ -41,6 +41,7 @@
 		<Item Name="Sub VIs" Type="Folder">
 			<Item Name="Command Timing.vi" Type="VI" URL="../SubVIs/Command Timing.vi"/>
 			<Item Name="Command with Response Check.vi" Type="VI" URL="../SubVIs/Command with Response Check.vi"/>
+			<Item Name="Convert A to T.vi" Type="VI" URL="../SubVIs/Convert A to T.vi"/>
 			<Item Name="Crowbar Display.ctl" Type="VI" URL="../SubVIs/Crowbar Display.ctl"/>
 			<Item Name="Download Trip File.vi" Type="VI" URL="../SubVIs/Download Trip File.vi"/>
 			<Item Name="Enable Authorized Controls.vi" Type="VI" URL="../SubVIs/Enable Authorized Controls.vi"/>
@@ -177,7 +178,7 @@
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_version.build" Type="Int">388</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">3</Property>
+				<Property Name="Bld_version.minor" Type="Int">4</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">PS Control.app</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/PS Control.app</Property>
@@ -188,7 +189,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Builds/PS Control.app/Contents/Resources</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{34B6A67E-2BA0-4132-AD9A-75528311E797}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6212B7A1-C864-464A-B7E5-74D0CD06DB4F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SCM4 Interlock Network Client.vi</Property>
@@ -216,7 +217,6 @@
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{5F5A04F5-BCC6-4967-B268-61969FACA7F4}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{4565BDDC-C81B-4B87-86D8-0F6DC84B18A0}</Property>
-				<Property Name="App_INI_itemID" Type="Ref"></Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -233,7 +233,7 @@
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_version.build" Type="Int">448</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.minor" Type="Int">4</Property>
+				<Property Name="Bld_version.minor" Type="Int">5</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">SCM4 Interlock Network Client.app</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/SCM4 Interlock Network Client.app</Property>
@@ -244,7 +244,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Builds/SCM4 Interlock Network Client.app/Contents/Resources</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{34B6A67E-2BA0-4132-AD9A-75528311E797}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6212B7A1-C864-464A-B7E5-74D0CD06DB4F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SCM4 Interlock Network Client.vi</Property>

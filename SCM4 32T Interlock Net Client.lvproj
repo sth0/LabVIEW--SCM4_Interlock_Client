@@ -174,9 +174,9 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5320BD50-B9E3-4AEC-9B10-68B63E884669}</Property>
-				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCM4 Interlock User Client log.txt</Property>
+				<Property Name="Bld_userLogFile" Type="Path">../Builds/PS Control log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">388</Property>
+				<Property Name="Bld_version.build" Type="Int">392</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">4</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
@@ -231,7 +231,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{8B357C8E-7031-4AEA-81A8-B941D16B0DFC}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/SCM4 Interlock Network Client log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">448</Property>
+				<Property Name="Bld_version.build" Type="Int">451</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">5</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
